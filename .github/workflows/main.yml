@@ -23,7 +23,7 @@ jobs:
 
       - name: Install newman and HTML Extra
         run: |
-          npm install -g install
+          npm install -g newman
           npm install -g newman-reporter-htmlextra
 
       - name : Run Inwarranty flow collection
